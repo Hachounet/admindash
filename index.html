@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
     <!-- adding WIP maybe to clean-->
+
+    <link rel="stylesheet" href="styles.css">
     
 </head>
 <body>
@@ -17,25 +19,27 @@
 <div id="sidebar">
 
     <div id="logo">
-        Dashboard
+        <img src="logoadmin-removebg-preview.png" alt="logo representing a sloth on watermelon ">
+        <p>Dashboard</p>
     </div>
 
-    <div class="menu">
+    <div class="menu" id="menu-1">
         <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communication</li>
+            
+            <li><img src="icons/home.svg" alt="homeicon">Home</li>
+            <li><img src="icons/account.svg" alt="profile icon"><span class="texticon">Profile</span></li>
+            <li><img src="icons/chat.svg" alt="messages icon"><span class="texticon"></span>Messages</span></li>
+            <li><img src="icons/history.svg" alt="history icon"><span class="texticon"></span>History</span></li>
+            <li><img src="icons/tasks.svg" alt="tasks icon"><span class="texticon"></span>Tasks</span></li>
+            <li><img src="icons/communities.svg" alt="communities icon"><span class="texticon"></span>Communities</span></li>
         </ul>
     </div>
 
-    <div class="menu">
+    <div class="menu" id="menu-2">
         <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
+            <li><img src="icons/settings.svg" alt="settings icon">Settings</li>
+            <li><img src="icons/support.svg" alt="support icon">Support</li>
+            <li><img src="icons/security.svg" alt="privacy icon">Privacy</li>
         </ul>
     </div>
 
@@ -43,11 +47,9 @@
 </div>
 
 <div id="header">
-    <div id="upsidebar">
         <div id="searchbar">
-
+            <input type="text" />
         </div>
-
         <div id="upsidebarmenu">
             <ul>
                 <li>Ring</li>
@@ -55,9 +57,6 @@
                 <li>Your name</li>
             </ul>
         </div>
-    </div>
-
-    <div id="downsidebar">
 
         <div id="hithere">
             <ul>
@@ -78,9 +77,6 @@
 
 
     </div>
-
-
-</div>
 
 
 <div id="main-content">
@@ -107,13 +103,13 @@
     </div>
 
     <div id="annoucements">
-        <div id="annoucementsblock">
+        <div id="annoucementsblock">This is annoucementsblock
         </div>
     </div>
 
 
     <div id="trending">
-        <div id="trendingblock"></div>
+        <div id="trendingblock">This is trending block</div>
     </div>
 
 </div>
